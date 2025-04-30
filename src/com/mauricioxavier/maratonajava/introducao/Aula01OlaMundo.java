@@ -2,7 +2,7 @@ package com.mauricioxavier.maratonajava.introducao;
 /**
  * Isso é um comentário <b> Javadoc</b>
  */
-public class OlaMundo {
+public class Aula01OlaMundo {
     // Comentário de uma linha
     /*
         Comentario de
