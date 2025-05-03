@@ -2,10 +2,10 @@ package com.mauricioxavier.maratonajava.introducao;
 
 public class Aula05EstruturasCondicionais01 {
     public static void main(String[] args) {
-        int idade = 19;
+        int idade = 16;
         boolean isAutorizadoComprarBebida = idade >= 18;
 
-        if (isAutorizadoComprarBebida) {
+        if (isAutorizadoComprarBebida != false) {
             System.out.println("Pode comprar");
         } else {
             System.out.println("Não está autorizado");
