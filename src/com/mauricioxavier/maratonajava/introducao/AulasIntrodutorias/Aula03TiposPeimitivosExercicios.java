@@ -1,4 +1,4 @@
-package com.mauricioxavier.maratonajava.introducao;
+package com.mauricioxavier.maratonajava.introducao.AulasIntrodutorias;
 
 public class Aula03TiposPeimitivosExercicios {
     public static void main(String[] args) {

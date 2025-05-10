@@ -1,4 +1,4 @@
-package com.mauricioxavier.maratonajava.introducao;
+package com.mauricioxavier.maratonajava.introducao.AulasIntrodutorias;
 /**
  * Isso é um comentário <b> Javadoc</b>
  */
