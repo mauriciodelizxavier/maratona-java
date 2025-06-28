@@ -3,7 +3,7 @@ package com.mauricioxavier.maratonajava.introducao.Aula05;
 public class Aula05EstruturasCondicionais05 {
     public static void main(String[] args) {
         // Imprima o dia da semana considerando 1 como domingo
-        byte dia = 10;
+        byte dia = 6;
         // char, int, byte, short, enum, String
         switch (dia) {
             case 1:

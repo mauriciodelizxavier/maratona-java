@@ -1,4 +1,4 @@
-package com.mauricioxavier.maratonajava.introducao;
+package com.mauricioxavier.maratonajava.introducao.Class07;
 
 public class Aula08ArraysMultidimensionais02 {
     public static void main(String[] args) {
