@@ -5,10 +5,12 @@ import com.mauricioxavier.maratonajava.objetos.Bintroducaometodos.dominio.Funcio
 public class FuncionarioTest {
     public static void main(String[] args) {
         Funcionario funcionario = new Funcionario();
-        funcionario.nome = "Marcio";
-        funcionario.idade = 45;
-        funcionario.salarios = new double[]{4500, 4785.58, 4796.57};
-        funcionario.imprimeDados();
+        funcionario.setNome("Marcio");
+        funcionario.setIdade(45);
+        funcionario.setSalarios(new double[]{4500, 4785.58, 4796.57});
+        funcionario.imprime();
+
+        System.out.println("Média: " + funcionario.getMedia());
 
 
     }
