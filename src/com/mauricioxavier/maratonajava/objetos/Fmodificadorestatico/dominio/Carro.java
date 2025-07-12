@@ -5,7 +5,7 @@ public class Carro {
     private double velocidadeMaxima;
     private static double velocidadeLimite = 250;
 
-    public Carro(String marca, double velocidadeMaxima) {
+    public Carro (String marca, double velocidadeMaxima) {
         this.marca = marca;
         this.velocidadeMaxima = velocidadeMaxima;
     }
@@ -14,7 +14,7 @@ public class Carro {
         System.out.println("-------------");
         System.out.println("Marca: " + this.marca);
         System.out.println("Velocidade Maxima " + this.velocidadeMaxima);
-        System.out.println("Valocidade Limite " + Carro.velocidadeLimite);
+        System.out.println("Valocidade Limite " + velocidadeLimite);
     }
 
     public static void setVelocidadeLimite(double velocidadeLimite){
