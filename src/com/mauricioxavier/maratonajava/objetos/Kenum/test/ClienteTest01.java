@@ -16,7 +16,9 @@ public class ClienteTest01 {
 
         TipoCliente tipoCliente = TipoCliente.tipoClientePorNomeRelatorio("Pessoa Fisica");
         TipoCliente tipoCliente2 = TipoCliente.tipoClientePorValor(2);
+        TipoCliente tipoCliente3 = TipoCliente.tipoClientePorNomeRelatorio("Pessoa Fisica");
         System.out.println(tipoCliente);
         System.out.println(tipoCliente2);
+        System.out.println(tipoCliente3);
     }
 }
